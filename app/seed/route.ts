@@ -1,3 +1,8 @@
+/*
+  Remove this file in actual production,
+  to prevent exposure of this API.
+*/
+
 import bcrypt from 'bcrypt';
 import postgres from 'postgres';
 import { invoices, customers, revenue, users } from '../lib/placeholder-data';
